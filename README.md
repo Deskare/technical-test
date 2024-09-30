@@ -1,4 +1,4 @@
-<p align="center"><a href="https://deskare.io" target="_blank"><img src="https://app.deskare.io/picture/logo/small-logo.svg" width="400"></a></p>
+<p align="center"><a href="https://deskare.io" target="_blank"><img src="https://app.deskare.io/photo/logo/small-logo.svg" width="200"></a></p>
 
 ## Test technique Deskare
 
@@ -8,8 +8,6 @@ Le but sera ici de comprendre avec Victor les enjeux et les aboutissants d'une i
 ## Prérequis
 
 - Docker
-- PHP 8.1
-- composer
 
 ## Installation
 
@@ -17,7 +15,7 @@ Le but sera ici de comprendre avec Victor les enjeux et les aboutissants d'une i
 git clone https://github.com/Deskare/technical-test.git
 cd technical-test && composer install
 cp .env.example .env
-./vendor/bin/sail up -d
+docker compose up -d
 ```
 
 ### But de l'exercice
