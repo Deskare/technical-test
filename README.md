@@ -22,6 +22,9 @@ git clone https://github.com/Deskare/technical-test.git
 cd technical-test && composer install
 cp .env.example .env
 docker compose up -d
+docker compose exec app sh
+  > php artisan key:generate
+  > php artisan migrate
 ```
 
 ### But de l'exercice
