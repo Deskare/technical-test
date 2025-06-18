@@ -1,4 +1,4 @@
-FROM php:8.3-cli-alpine AS base
+FROM php:8-cli-alpine AS base
 WORKDIR /var/app
 ENV TZ=Europe/Paris
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer

@@ -29,14 +29,10 @@ docker compose exec app sh
 
 ### But de l'exercice
 
-Réaliser une intégration avec le SIRH Lucca ([Documentation](https://lucca.stoplight.io/docs/lucca-legacyapi/ZG9jOjM3OTk0NDk5-getting-started)).
+Réaliser une intégration avec une api ([Documentation](https://lucca.stoplight.io/docs/lucca-legacyapi/ZG9jOjM3OTk0NDk5-getting-started)).
 Credentials : 
 
 ```sh
-#LUCCA
-API_KEY : de6c75c9-e77e-48be-9a0b-a1f240a3b347,
-DOMAIN : https://deskare.ilucca-demo.net
-
 #User
 URL: https://randomuser.me/api/?results=50
 ```
