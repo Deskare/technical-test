@@ -19,10 +19,11 @@ Le but sera ici de comprendre avec Victor les enjeux et les aboutissants d'une i
 
 ```sh
 git clone https://github.com/Deskare/technical-test.git
-cd technical-test && composer install
+cd technical-test
 cp .env.example .env
 docker compose up -d
 docker compose exec app sh
+  > composer install
   > php artisan key:generate
   > php artisan migrate
 ```
