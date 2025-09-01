@@ -7,9 +7,9 @@ Le but sera ici de comprendre avec Victor les enjeux et les aboutissants d'une i
 
 ## Stack technique
     Backend
-        Laravel 11
+        Laravel 12
     Frontend
-        Vue
+        Vue 3.5
         Tailwind css
 ## Prérequis
 
@@ -29,8 +29,7 @@ docker compose exec app sh
 
 ### But de l'exercice
 
-Réaliser une intégration avec une api ([Documentation](https://lucca.stoplight.io/docs/lucca-legacyapi/ZG9jOjM3OTk0NDk5-getting-started)).
-Credentials : 
+Réaliser une intégration avec une api, et afficher le résultat de l'API côté front.
 
 ```sh
 #User
