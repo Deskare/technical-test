@@ -33,8 +33,7 @@ docker compose exec app sh
 Réaliser une intégration avec l'API du service RH Lucca, et afficher la liste des utilisauters côté front.
 
 ```sh
-BASE_URL: https://deskare-2025-01-17.ilucca-demo.net
-API_KEY: ae8655e6-9841-4686-a983-321425f2e88c
+BASE_URL: https://jsonplaceholder.typicode.com/users
 ```
 
 Discussion libre sur le format et l'organisation du code pour réaliser ce service.
